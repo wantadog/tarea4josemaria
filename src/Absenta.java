@@ -19,4 +19,20 @@ public class Absenta {
         this.precio = precio;
         this.graduacion = graduacion;
     }
+
+    public int getPrecio() {
+        return precio;
+    }
+
+    public void setPrecio(int precio) {
+        this.precio = precio;
+    }
+
+    public int getGraduacion() {
+        return graduacion;
+    }
+
+    public void setGraduacion(int graduacion) {
+        this.graduacion = graduacion;
+    }
 }
