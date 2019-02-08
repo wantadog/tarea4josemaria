@@ -35,4 +35,9 @@ public class Absenta {
     public void setGraduacion(int graduacion) {
         this.graduacion = graduacion;
     }
+
+    @Override
+    public String toString() {
+        return "Absenta{" + "precio=" + precio + ", graduacion=" + graduacion + '}';
+    }
 }
